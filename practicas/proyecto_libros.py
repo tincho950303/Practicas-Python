@@ -6,6 +6,6 @@ def analizar_libro(pag):
     resultado = print(f"Débes leer {round(paginas_año,1)} páginas por día durante un año para completarlo")
     return resultado
 
-numero_paginas = int(input("Cuantas páginas tiene el libro ? "))
+numero_paginas = 250
 
 analizar_libro(numero_paginas)
